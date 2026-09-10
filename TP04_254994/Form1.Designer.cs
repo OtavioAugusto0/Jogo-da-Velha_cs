@@ -33,7 +33,6 @@
             this.btn1 = new System.Windows.Forms.Button();
             this.btn4 = new System.Windows.Forms.Button();
             this.btn2 = new System.Windows.Forms.Button();
-            this.btn3 = new System.Windows.Forms.Button();
             this.btn5 = new System.Windows.Forms.Button();
             this.btn6 = new System.Windows.Forms.Button();
             this.btn7 = new System.Windows.Forms.Button();
@@ -43,6 +42,7 @@
             this.lblPlacarO = new System.Windows.Forms.Label();
             this.btnReiniciar = new System.Windows.Forms.Button();
             this.btnFechar = new System.Windows.Forms.Button();
+            this.btn3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblTitulo
@@ -90,23 +90,13 @@
             // 
             // btn2
             // 
-            this.btn2.Font = new System.Drawing.Font("Monotype Corsiva", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn2.Font = new System.Drawing.Font("Monotype Corsiva", 40F, System.Drawing.FontStyle.Bold);
             this.btn2.Location = new System.Drawing.Point(358, 103);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(80, 80);
             this.btn2.TabIndex = 3;
             this.btn2.UseVisualStyleBackColor = true;
             this.btn2.Click += new System.EventHandler(this.BotaoJogo_Click);
-            // 
-            // btn3
-            // 
-            this.btn3.Font = new System.Drawing.Font("Monotype Corsiva", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Inch, ((byte)(0)));
-            this.btn3.Location = new System.Drawing.Point(457, 103);
-            this.btn3.Name = "btn3";
-            this.btn3.Size = new System.Drawing.Size(80, 80);
-            this.btn3.TabIndex = 4;
-            this.btn3.UseVisualStyleBackColor = true;
-            this.btn3.Click += new System.EventHandler(this.BotaoJogo_Click);
             // 
             // btn5
             // 
@@ -198,12 +188,23 @@
             this.btnFechar.UseVisualStyleBackColor = true;
             this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
+            // btn3
+            // 
+            this.btn3.Font = new System.Drawing.Font("Monotype Corsiva", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn3.Location = new System.Drawing.Point(457, 103);
+            this.btn3.Name = "btn3";
+            this.btn3.Size = new System.Drawing.Size(80, 80);
+            this.btn3.TabIndex = 14;
+            this.btn3.UseVisualStyleBackColor = true;
+            this.btn3.Click += new System.EventHandler(this.BotaoJogo_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 481);
+            this.Controls.Add(this.btn3);
             this.Controls.Add(this.btnFechar);
             this.Controls.Add(this.btnReiniciar);
             this.Controls.Add(this.lblPlacarO);
@@ -213,7 +214,6 @@
             this.Controls.Add(this.btn7);
             this.Controls.Add(this.btn6);
             this.Controls.Add(this.btn5);
-            this.Controls.Add(this.btn3);
             this.Controls.Add(this.btn2);
             this.Controls.Add(this.btn4);
             this.Controls.Add(this.btn1);
@@ -236,7 +236,6 @@
         private System.Windows.Forms.Button btn1;
         private System.Windows.Forms.Button btn4;
         private System.Windows.Forms.Button btn2;
-        private System.Windows.Forms.Button btn3;
         private System.Windows.Forms.Button btn5;
         private System.Windows.Forms.Button btn6;
         private System.Windows.Forms.Button btn7;
@@ -246,6 +245,7 @@
         private System.Windows.Forms.Label lblPlacarO;
         private System.Windows.Forms.Button btnReiniciar;
         private System.Windows.Forms.Button btnFechar;
+        private System.Windows.Forms.Button btn3;
     }
 }
 
